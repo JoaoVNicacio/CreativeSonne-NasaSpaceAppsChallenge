@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+body {
+  background-image: url(https://preview.redd.it/zxqlscjjctn11.png?width=960&crop=smart&auto=webp&s=587230549cf4881716e789c896f639bd755e6851);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1%;
+  margin: 3%;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #253031;
+}
+
+.centered a {
+  margin: 2%;
+}
+
+.center-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered a:hover {
+  background-color: #C6E0FF;
+  border-radius: 30px;
+}
+
+p{
+  text-align: justify;
+  width: 70%;
+  margin-bottom: 2%;
+}
